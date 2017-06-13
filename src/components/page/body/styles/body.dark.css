@@ -1,0 +1,4 @@
+.body {
+  composes: body from "./body.css";
+  background-color: rgba(36,52,68,1)
+}

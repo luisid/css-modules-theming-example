@@ -1,0 +1,5 @@
+.header {
+  composes: header from "./header.css";
+  background-color: #1959a0;
+  border-bottom: 1px solid rgba(44,48,51,0.21);
+}

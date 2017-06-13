@@ -1,0 +1,9 @@
+{
+  "extends": "stylelint-config-css-modules",
+  "rules": {
+    "at-rule-empty-line-before": null,
+    "selector-pseudo-class-no-unknown": [true, {
+      "ignorePseudoClasses": ["global"]
+    }]
+  }
+}

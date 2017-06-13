@@ -1,0 +1,25 @@
+.btn {
+  composes: btn from '../button/button.css';
+  color: #fff;
+  background: #7ac417;
+  border-color: #72b816;
+
+  &:hover:not(.disabled) {
+    background-color: #91db2d;
+    border-color: #72b816;
+    color: #fff;
+  }
+}
+
+.disabled {
+  composes: btn;
+  composes: disabled from '../button/button.css';
+}
+
+.active {
+  composes: btn;
+  composes: active from '../button/button.css';
+  color: #fff;
+  background-color: #72b816;
+  border-color: #72b816;
+}

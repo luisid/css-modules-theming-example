@@ -1,0 +1,13 @@
+.btn {
+  composes: btn from './default.css';
+}
+
+.disabled {
+  composes: btn;
+  composes: disabled from './default.css';
+}
+
+.active {
+  composes: btn;
+  composes: active from './default.css';
+}
